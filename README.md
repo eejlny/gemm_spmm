@@ -1,7 +1,9 @@
-# gemm_spmm
+
 Hardware accelerator for matrix multiplication in dense and pruned networks
 
-# The GEMM and SPMM folders contain the source code for the paper targetting a baremetal zedboard platform.
+# The GEMM and SPMM folders 
+
+contain the source code for the paper targetting a baremetal zedboard platform.
 
 Jose Nunez-Yanez, Mohammad Hosseinabady, Sparse and dense matrix multiplication hardware for heterogeneous multi-precision neural networks,Array,Volume 12,
 2021,ISSN 2590-0056
@@ -35,7 +37,9 @@ csr file with sparsed packed weights, mode 0 byte/1 ternary/2 quad,
 
 rows for B hardwired to 512, rows and columns for A part of the CSR file.
 
-# The FUSED folder contains a higher performance architecture that merges the sparse and dense accelerators and targets a ZCU102 Zynq Ultrascale platform as 
+# The FUSED folder 
+
+contains a higher performance architecture that merges the sparse and dense accelerators and targets a ZCU102 Zynq Ultrascale platform as 
 illustrated in the following picture.
 
 ![Screenshot](fused.png)
