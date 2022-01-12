@@ -35,7 +35,10 @@ csr file with sparsed packed weights, mode 0 byte/1 ternary/2 quad,
 
 rows for B hardwired to 512, rows and columns for A part of the CSR file.
 
-The FUSED folder contains a higher performance architecture that merges the sparse and dense accelerators and targets a ZCU102 Zynq Ultrascale platform.
+The FUSED folder contains a higher performance architecture that merges the sparse and dense accelerators and targets a ZCU102 Zynq Ultrascale platform as 
+illustrated in the following picture.
+
+![Screenshot](fused.png)
 
 It uses a streaming/dataflow architecture with read,compute,scale and write stages and can switch operation between sparse and dense modes using a mode register.
 It has been integrated as part of a Tensorflow Lite (1.15/2.8) inference engine running on the device PS that offloads matrix operations to the accelerator as required.
