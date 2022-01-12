@@ -61,8 +61,9 @@ You need to copy these two files to the ZCU102 board as indicated below.
 
 PS software development:
 
-In our system we have used Petalinux to create an Ubuntu based OS for the ZCU102 board and compile natively Tensorflow Lite. 
-You can download tensorflow 1.14/15 and unzip in the ZCU102 board sdcard. Then you can download the lite.zip provided file and obtain a lite directory that you use to replace the lite
+In our system we have used Petalinux to create an Ubuntu based OS for the ZCU102 board and compile natively Tensorflow Lite. The kernel version is 4.14.0-xilinx-v2018.3
+and the Linux version is Ubuntu 16.04.4 LTS that are mapped to a 64 GB SDcard. You can download tensorflow 1.14/15 and unzip in the Linux filesystem of the ZCU102 board. 
+Then you can download and unzip the lite.zip provided file and obtain a lite directory that you have to use to replace the lite
 directory in .../tensorflow-14.1/tensorflow/lite. Then you copy the libkernelmatrixmult.a and kernelmatrixmult.linked.bit.bin to 
 .../tensorflow-14.1/tensorflow/lite/tools/make/LibMatrixmult and .../tensorflow-14.1/tensorflow/lite/tools/make/ respectively. 
 
@@ -87,7 +88,7 @@ to
 #define SPMM_MODE 1
 #define  GET_CSR 1
 
-in the cpu_backend_gemm_ruy.h file
+in the cpu_backend_gemm_ruy.h file and recompile. 
 
 
 
