@@ -1,4 +1,4 @@
-Copyright (c) [2021] [Jose Nunez-Yanez (eejlny@bristol.ac.uk)]
+/*Copyright (c) [2021] [Jose Nunez-Yanez (eejlny@bristol.ac.uk)]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
