@@ -1,9 +1,9 @@
 
 Hardware accelerator for matrix multiplication in dense and pruned networks
 
-# The GEMM and SPMM folders 
+# The GEMM and SPMM(_DATAFLOW) folders 
 
-contain the source code for the paper targetting a baremetal zedboard platform.
+contain the source code for the paper targetting a baremetal zedboard platform.The dataflow version organizes the dataflow pragma in a different position that seems to yield better performance on the matrix computation. 
 
 Jose Nunez-Yanez, Mohammad Hosseinabady, Sparse and dense matrix multiplication hardware for heterogeneous multi-precision neural networks,Array,Volume 12,
 2021,ISSN 2590-0056
