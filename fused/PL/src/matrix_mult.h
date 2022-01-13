@@ -1,6 +1,6 @@
 /* File: matrix_mult.h
  *
- Copyright (c) [2016] [Mohammad Hosseinabady (mohammad@hosseinabady.com)]
+ Copyright (c) [2021] [Jose Nunez-Yanez (eejlny@bristol.ac.uk)]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,12 +21,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ===============================================================================
 * This file has been written at University of Bristol
-* for the ENPOWER project funded by EPSRC
+* for the HOPWARE/MINET project
 *
 * File name : matrix_mult.h
-* author    : Mohammad hosseinabady mohammad@hosseinabady.com
-* date      : 1 October 2016
-* blog: https://highlevel-synthesis.com/
+* author    : Jose Nunez-Yanez eejlny@bristol.ac.uk
+* date      : 1 October 2021
 */
 
 #ifndef __MATRIX_MULT_H__

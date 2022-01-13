@@ -21,6 +21,9 @@ Additionally, sparsity levels as high as 99% can maintain the level of accuracy 
 Overall, the balance between sparse and dense performance depends on matrix shape, precision, structural pruning and sparsity levels and performance 
 modelling can be used to balance concurrent execution in a heterogeneous configuration.
 
+To implement this system create a project using Xilinx SDSoC tools (tested with 2018.3) add all the files in the corresponding directory to the project and select 
+functions  mmult_top for GEMM and spmm for SPMM for hardware implementation. Once implementation completes you can use "run as" to run the system on the zedboard FPGA.
+
 example commands to use the accelerators:
 
 GEMM
