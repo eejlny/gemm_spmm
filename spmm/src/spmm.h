@@ -1,6 +1,4 @@
-/* File: spmv_mohammad.h
- *
- Copyright (c) [2019] [Mohammad Hosseinabady (mohammad@hosseinabady.com)]
+/*Copyright (c) [2021] [Jose Nunez-Yanez (eejlny@bristol.ac.uk)]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,16 +19,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ===============================================================================
 * This file has been written at University of Bristol
-* for the ENEAC project (Jose Nunez-Yanez) funded by EPSRC
+* for the HOPWARE/MINET project
 *
-* File name : spmv_mohammad.h
-* author    : Mohammad hosseinabady mohammad@hosseinabady.com
-* date      : 18 February 2019
-* blog: https://highlevel-synthesis.com/
+* 
+* author    : Jose Nunez-Yanez eejlny@bristol.ac.uk
+* date      : 1 October 2021
 */
 
-#ifndef __SPMV_MOHAMMAD__
-#define __SPMV_MOHAMMAD__
 
 #include "ap_int.h"
 

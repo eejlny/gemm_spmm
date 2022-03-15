@@ -21,14 +21,12 @@ SOFTWARE.
 * This file has been written at University of Bristol
 * for the HOPWARE/MINET project
 *
-* File name : matrix_mult.h
+* 
 * author    : Jose Nunez-Yanez eejlny@bristol.ac.uk
 * date      : 1 October 2021
 */
 
 
-#ifndef __SPMV_MOHAMMAD__
-#define __SPMV_MOHAMMAD__
 
 /*
  * for clock frequency 100 MHZ   II=4

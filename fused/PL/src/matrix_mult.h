@@ -23,13 +23,11 @@ SOFTWARE.
 * This file has been written at University of Bristol
 * for the HOPWARE/MINET project
 *
-* File name : matrix_mult.h
+* 
 * author    : Jose Nunez-Yanez eejlny@bristol.ac.uk
 * date      : 1 October 2021
 */
 
-#ifndef __MATRIX_MULT_H__
-#define __MATRIX_MULT_H__
 
 #include <vector>
 
