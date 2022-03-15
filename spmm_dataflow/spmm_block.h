@@ -1,3 +1,5 @@
+//Copyright (c) [2022] [Jose Nunez-Yanez //(eejlny@bristol.ac.uk)]
+
 #ifndef __SPMV_BLOCK_H__
 #define __SPMV_BLOCK_H__
 

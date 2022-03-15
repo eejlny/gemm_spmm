@@ -1,4 +1,4 @@
-
+//Copyright (c) [2022] [Jose Nunez-Yanez //(eejlny@bristol.ac.uk)]
 
 #include "spmm_block.h"
 
