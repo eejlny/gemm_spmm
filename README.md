@@ -72,7 +72,31 @@ Then you can download and unzip the lite.zip provided file and obtain a lite dir
 Now you are ready to compile the inference engine, hardware library and linked the image classification example with the script ./build_arch64_lib.sh.
 Once this completes you can execute the run.sh script that will load the PL with the accelerator bitstream and launch the inference engine example with:
 
-./gen/aarch64_armv8-a/bin/label_image  --tflite_model ./pruned_quant_mobilenet_085.tflite --image ./3.bmp --labels ./labelsclas.txt --threads 1 --fpga_cores 1
+./gen/aarch64_armv8-a/bin/label_image  --tflite_model ./quant_mobilenet.tflite --image ./3.bmp --labels ./labelsclas.txt --threads 1 --fpga_cores 1
+
+You should see as output a number of debugging message and as result:
+
+...
+Invoke finished
+(average time: 115.45 ms)
+------ classification > 0 Results... 5 ------
+Reading labels
+Reading done
+loop:
+0.878431: 231 231:Shetland sheepdog, Shetland sheep dog, Shetland
+loop:
+0.121569: 230 230:Old English sheepdog, bobtail
+loop:
+0: 999 999:ear, spike, capitulum
+loop:
+0: 998 998:bolete
+loop:
+0: 997 997:hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa
+All done
+Layers on CPU 3 Layers on FPGA 11
+FPGA  Total execution time = 29.242 msec
+
+
 
 The entry point to the hardware is located in tensorflow/lite/kernels/cpu_backend_gemm_ruy.h that calls the hardware at 
 
