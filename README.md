@@ -83,17 +83,29 @@ Invoke finished
 Reading labels
 Reading done
 loop:
+
 0.878431: 231 231:Shetland sheepdog, Shetland sheep dog, Shetland
+
 loop:
+
 0.121569: 230 230:Old English sheepdog, bobtail
+
 loop:
+
 0: 999 999:ear, spike, capitulum
+
 loop:
+
 0: 998 998:bolete
+
 loop:
+
 0: 997 997:hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa
+
 All done
+
 Layers on CPU 3 Layers on FPGA 11
+
 FPGA  Total execution time = 29.242 msec
 
 
